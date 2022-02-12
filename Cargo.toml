@@ -1,0 +1,20 @@
+[package]
+name = "dogapi"
+version = "1.0.0"
+description = "Dog API client"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/dogapi-rust"
+repository = "https://github.com/thechampagne/dogapi-rust"
+keywords = ["photos", "database", "images", "dog", "api"]
+categories = ["api-bindings"]
+readme = "README.md"
+license = "Apache-2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = "1.0.0"
+serde_derive = "1.0.0"
+serde_json = "1.0.0"
+reqwest = { version = "0.11", features = ["blocking"] }
